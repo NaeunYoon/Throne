@@ -1,0 +1,142 @@
+[
+  {
+    "itemName": "apple",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 사과 : 사과주스의 재료로 쓰인다 ",
+    "itemType": 1
+  },
+  {
+    "itemName": "banana",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 바나나 : 딸기바나나주스의 재료로 쓰인다 ",
+    "itemType": 1
+  },
+  {
+    "itemName": "bread",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "퍽퍽한 빵",
+    "itemType": 1
+  },
+  {
+    "itemName": "carrot",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 당근 : 당근주스의 재료로 쓰인다",
+    "itemType": 1
+  },
+  {
+    "itemName": "cheese",
+    "itemAbility": 50,
+    "itemPrice": 50,
+    "itemExplain": "고소한 우유치즈",
+    "itemType": 1
+  },
+  {
+    "itemName": "coffee",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아메리카노",
+    "itemType": 1
+  },
+  {
+    "itemName": "cookie",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "초코칩 쿠키 : 기분이 좋아진다",
+    "itemType": 1
+  },
+  {
+    "itemName": "egg",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 계란 : 계란후라이의 재료로 쓰인다",
+    "itemType": 1
+  },
+  {
+    "itemName": "meat",
+    "itemAbility": 50,
+    "itemPrice": 50,
+    "itemExplain": "아주 맛있는 고기",
+    "itemType": 1
+  },
+  {
+    "itemName": "strawberry",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 딸기 : 딸기바나나 주스의 재료로 쓰인다",
+    "itemType": 1
+  },
+  {
+    "itemName": "bronze",
+    "itemAbility": 1,
+    "itemPrice": 1,
+    "itemExplain": "1코인",
+    "itemType": 2
+  },
+  {
+    "itemName": "egg_1",
+    "itemAbility": 100,
+    "itemPrice": 100,
+    "itemExplain": "랜덤 펫이 제공된다",
+    "itemType": 2
+  },
+  {
+    "itemName": "egg_2",
+    "itemAbility": 100,
+    "itemPrice": 100,
+    "itemExplain": "랜덤 펫이 제공된다",
+    "itemType": 2
+  },
+  {
+    "itemName": "egg_3",
+    "itemAbility": 100,
+    "itemPrice": 100,
+    "itemExplain": "랜덤 펫이 제공된다",
+    "itemType": 2
+  },
+  {
+    "itemName": "gold",
+    "itemAbility": 100,
+    "itemPrice": 100,
+    "itemExplain": "100코인",
+    "itemType": 2
+  },
+  {
+    "itemName": "letter",
+    "itemAbility": 0,
+    "itemPrice": 0,
+    "itemExplain": "부치지 못한 편지 -DJDOC",
+    "itemType": 2
+  },
+  {
+    "itemName": "silver",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "10코인",
+    "itemType": 2
+  },
+  {
+    "itemName": "icecream",
+    "itemAbility": 10,
+    "itemPrice": 10,
+    "itemExplain": "아주 맛있는 아이스크림 ",
+    "itemType": 1
+  },
+  {
+    "itemName": "pizza",
+    "itemAbility": 50,
+    "itemPrice": 50,
+    "itemExplain": "아주 맛있는 피자",
+    "itemType": 1
+  },
+  {
+    "itemName": "fries",
+    "itemAbility": 1000,
+    "itemPrice": 1000,
+    "itemExplain": "아주X100 맛있는 감자튀김",
+    "itemType": 1
+  }
+]
