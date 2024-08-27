@@ -52,8 +52,9 @@ public class Tutorial_Scenario : UIBase
     public void BackgroundExplanation(Action onFinished)
     {
         backgroundExplain.text = 
-        "아무개 왕국 힘의 원천인 파멸의 씨앗이 사라지고, 황녀 <플레이어> 는 유력한 용의자로 몰리게 된다...";
-        TextEffect(onFinished,backgroundExplain, 10f);
+        "세르세이, 조프리, 일린 페인, 마운틴, 하운드.. " +System.Environment.NewLine+
+        "살생부에 적힌 이름을 읇지 않고는 잠을 잘 수 없어..!";
+        TextEffect(onFinished,backgroundExplain, 13f);
     }
     
     public void FirstMonologue()
@@ -66,8 +67,9 @@ public class Tutorial_Scenario : UIBase
         backwardCam.gameObject.SetActive(false);
         forwardCam.gameObject.SetActive(true);
         backgroundExplain.alignment = TextAlignmentOptions.Center;
-        backgroundExplain.text = "어쩌다가 이렇게 된 걸까...난 결백한데.....";
-        TextEffect(onFinished,backgroundExplain,10f);
+        backgroundExplain.text = "난 아무도 아닌 자가 되기 위해 브라보스에 있는 다면신의 신전에 왔어."
+        +System.Environment.NewLine+" 이대로 물러설 순 없다고...";
+        TextEffect(onFinished,backgroundExplain,13f);
     }
     private Tweener sequence = null;
     public void TextEffect(Action onfinished,TextMeshProUGUI txt, float duration)
@@ -82,12 +84,11 @@ public class Tutorial_Scenario : UIBase
                 0f,
                 txt.text.Length, duration)
             .SetEase(Ease.Linear)
-            .SetDelay(1f)
+            .SetDelay(0.5f)
             .OnComplete(() =>
             {
-                //txt.gameObject.SetActive(false);
                 if (onfinished != null)
-                    onfinished?.Invoke();
+                        onfinished?.Invoke();
             });;
     }
 
@@ -116,31 +117,30 @@ public class Tutorial_Scenario : UIBase
     {
         onFinished = PrincessSequence;
         App.inst.uiMgr.monologue.Show();
-        string priestTxt = "죄인은 무릎을 꿇어라...";
-        App.inst.uiMgr.monologue.TextEffect(onFinished, priestTxt,portraitImgArr[1],5f);
+        string priestTxt = "소녀는 누구인가?";
+        App.inst.uiMgr.monologue.TextEffect(onFinished, priestTxt,portraitImgArr[1],2f);
     }
 
     public void PrincessSequence()
     {
         princessAnim.SetTrigger("talk");
         onFinished = SisterSequence;
-        string princessText = "지은 죄가 없어 꿇을 수 없습니다.. 저는 결백하다구요...";
-        App.inst.uiMgr.monologue.TextEffect(onFinished,princessText,portraitImgArr[0],8f);
+        string princessText = "난 아무도 아니야.";
+        App.inst.uiMgr.monologue.TextEffect(onFinished,princessText,portraitImgArr[0],2f);
     }
     public void SisterSequence()
     {
         onFinished = PriestSecondSequence;
         endCam.gameObject.SetActive(true);
-        string sisterText = "<플레이어> 언니가 훔치는 것을 제가 봤어요! (ㅋㅋ)..";
+        string sisterText = "넌 준비가 되지 않았어. 스타크 가의 귀족 아가씨, 아리아  ";
         App.inst.uiMgr.monologue.TextEffect(onFinished,sisterText,portraitImgArr[2],5f);
     }
 
     public void PriestSecondSequence()
     {
         onFinished = EndConversation;
-        string priestTxt = "황녀<플레이어>는 성당에서 봉인하고 있는 파멸의 씨앗을 훔친 죄가 중해 사형에 처해지는 것이 마땅하나," +
-                           "\n신분을 고려하여 황족의 신분을 박탈하고 윈터펠로 추방한다...";
-        App.inst.uiMgr.monologue.TextEffect(onFinished,priestTxt,portraitImgArr[1],15f);
+        string priestTxt = "지금까지 다면신을 모시는 얼굴 없는 자 중에는 귀족은 없었다, "+System.Environment.NewLine+"소녀는 준비가 되었다는 것을 증명 해 내야 한다";
+        App.inst.uiMgr.monologue.TextEffect(onFinished,priestTxt,portraitImgArr[1],10f);
         princessAnim.SetTrigger("cry");
     }
 
@@ -149,7 +149,7 @@ public class Tutorial_Scenario : UIBase
         onFinished = ShowBtn;
         App.inst.uiMgr.monologue.Hide();
         backgroundExplain.gameObject.SetActive(true);
-        backgroundExplain.text = "하나밖에 없는 내 동생이 날 모함하다니..이대로 끝날 순 없어..";
+        backgroundExplain.text = "난 내 출신과 욕망을 모두 버렸어."+System.Environment.NewLine+" 나는 얼굴 없는 자가 될 거야.";
         TextEffect(onFinished,backgroundExplain,10f);
     }
 
