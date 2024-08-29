@@ -62,7 +62,7 @@ public class SceneState_Act_Selection : SceneStateBase
             {
                 case SceneBase.Status.FINISH_GOTO_TUTORIAL:
                     {
-                        App.inst.sceneStateMgr.ChangeState<SceneState_Act_Tutorial>(SceneState_Act_Tutorial.MakeParam(GetType().Name, string.Empty));
+                        App.inst.sceneStateMgr.ChangeState<SceneState_Act_Tutorial_1>(SceneState_Act_Tutorial_1.MakeParam(GetType().Name, string.Empty));
                     }
                     break;
 
