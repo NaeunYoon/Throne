@@ -6,24 +6,30 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Project/Scene/main.unity
+    path: Assets/_Project/Scene/main.unity
     guid: 4bbd5dcb17b17184085fdcb1d0637a6c
   - enabled: 1
-    path: Assets/Project/Scene/Title.unity
+    path: Assets/_Project/Scene/Title.unity
     guid: 6d80b41a0d7ee6a438c27fbfbd347d82
   - enabled: 1
-    path: Assets/Project/Scene/PlayerSelect.unity
+    path: Assets/_Project/Scene/PlayerSelect.unity
     guid: 05b6e79f5e429f34886a100880a59b05
   - enabled: 1
-    path: Assets/Project/Scene/Tutorial.unity
+    path: Assets/_Project/Scene/Tutorial_1.unity
     guid: aabe285325981dd46808a7b1e90f01d1
   - enabled: 1
-    path: Assets/Project/Scene/Winterfell.unity
+    path: Assets/_Project/Scene/Tutorial_2.unity
+    guid: c52641e66a5236340b2296702e691500
+  - enabled: 1
+    path: Assets/_Project/Scene/Tutorial_3.unity
+    guid: cb674459af437c84ca802c12f1f37386
+  - enabled: 1
+    path: Assets/_Project/Scene/Winterfell.unity
     guid: 933a4a5274d99b743b30b9106be37819
   - enabled: 1
-    path: Assets/Project/Scene/Dungeon_1.unity
+    path: Assets/_Project/Scene/Dungeon_1.unity
     guid: f87f6f46dfaa2d6469fdfc7881d46564
   - enabled: 1
-    path: Assets/Project/Scene/Dungeon_2.unity
+    path: Assets/_Project/Scene/Dungeon_2.unity
     guid: 93bfe1dee05e01944bb61112bd00ebe9
   m_configObjects: {}
